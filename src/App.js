@@ -9,7 +9,7 @@ function App() {
     const data = {
       email
     }
-    const response = await axios.post("https://sendemail-api-kubo.onrender.com/api/sendemail", data)
+    const response = await axios.post("https://sendemail-api-kubo.onrender.com", data)
     console.log(response.data);
 
   }
